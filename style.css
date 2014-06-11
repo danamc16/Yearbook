@@ -1,0 +1,119 @@
+h1 {
+	margin-top:5px;
+	font-size:20px;
+	font-family: 'Playfair Display', serif;
+	color:white;
+	text-shadow: 2px 2px #A65E00;
+}
+
+p {
+	font-size:15px;
+	color:white;
+	text-shadow: 2px 2px #A65E00;
+}
+
+body {
+	background-color:#FFD473;
+}
+
+.title{
+	margin-top:0px;
+	margin-bottom:10px;
+	font-size:40px;
+	padding:5px;
+	width:918px;
+	color:white;
+	text-shadow: 2px 2px #A65E00;
+	background-color:#FF9000;
+}
+
+.intro {
+	width:910px;
+	font-size:20px;
+	color:white;
+	position:relative;
+	text-shadow: 2px 2px #A65E00;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:15px;
+	background-color:#FFB100;
+}
+
+.container {
+	display:flex;
+	flex-flow:row wrap;
+	width: 918px;
+	height: 820px;
+	margin:0 auto;
+	margin-bottom:150px;
+	border-style:solid;
+	border-color:#A65E00;
+	border-width:1px;
+	background-color:#FFE473;
+}
+
+.pic {
+	display:inline-block;
+	position:relative;
+	width:300px;
+	height:200px;
+	border-style:solid;
+	border-color:#A65E00;
+	border-width:3px;
+	margin-bottom:-5px;
+}
+
+.description {
+	padding:5px;
+	font-family: 'Playfair Display', serif;
+	background-color:#FF9000;
+	overflow:hidden;
+	color:white;
+	text-shadow: 2px 2px #A65E00;
+}
+
+.picture {
+	position:absolute;
+	background-size:cover;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+#april {
+	background-position:50% 30%;
+}
+
+#march {
+	background-position:center;
+}
+
+#june {
+	background-position:50% 70%;
+}
+
+.pic:hover > .picture {
+	transition:all 800ms ease-in-out;
+	z-index:1;
+	transform: rotateZ(-15deg) scale(1.5) translateX(-150px) translateY(20px); 
+	-ms-transform: rotateZ(-15deg) scale(1.5) translateX(-150px) translateY(20px);
+	-moz-transform: rotateZ(-15deg) scale(1.5) translateX(-150px) translateY(20px);  
+	-webkit-transform: rotateZ(-15deg) scale(1.5) translateX(-150px) translateY(20px);
+	-moz-box-shadow:    3px 3px 5px 3px #A65E00;
+  	-webkit-box-shadow: 3px 3px 5px 3px #A65E00;
+  	box-shadow:         3px 3px 5px 3px #A65E00;
+}
+
+
+.pic:hover > .description {
+	transition:all 800ms ease-in-out;
+	z-index:1;
+	transform: rotateZ(5deg) scale(1.1) translateX(180px) translateY(0px); 
+	-ms-transform: rotateZ(5deg) scale(1.1) translateX(180px) translateY(0px);
+	-moz-transform: rotateZ(5deg) scale(1.1) translateX(180px) translateY(0px);  
+	-webkit-transform: rotateZ(5deg) scale(1.1) translateX(180px) translateY(0px);
+	-moz-box-shadow:    3px 3px 5px 3px #A65E00;
+  	-webkit-box-shadow: 3px 3px 5px 3px #A65E00;
+  	box-shadow:         3px 3px 5px 3px #A65E00;
+}
